@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+ - name: ecom
+   database: raw
+   schema: dbt_nfiann
+   tables:
+     - name: customers
+     - name: orders
