@@ -24,15 +24,11 @@ clean-targets:         # directories to be removed by `dbt clean`
   - "target"
   - "dbt_packages"
 
-<<<<<<< HEAD
-=======
 seeds:
   jaffle_shop:
     +schema: dbt_nfiann
     jaffle-data:
       +enabled: "{{ var('load_source_data', true) }}"
-
->>>>>>> 51e91eb95ca438db66a16c09cff59db6476c2cb5
 
 # Configuring models
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
