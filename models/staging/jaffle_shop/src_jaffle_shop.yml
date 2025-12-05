@@ -1,9 +1,9 @@
 version: 2
 
 sources:
- - name: jaffle_shop
+ - name: ecom
    database: raw
-   schema: jaffle_shop
+   schema: dbt_nfiann
    tables:
      - name: customers
      - name: orders
